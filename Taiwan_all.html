@@ -1,0 +1,330 @@
+<!-- LineChart generated in R 3.6.2 by googleVis 0.6.4 package -->
+<!-- Sun Apr 26 00:06:37 2020 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataLineChartID46702bcd4d7e () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+null,
+null
+] 
+];
+data.addColumn('string','data_actual');
+data.addColumn('number','percentual');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataLineChartID46705bce2aa1 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+null,
+null
+] 
+];
+data.addColumn('string','data_actual');
+data.addColumn('number','percentual');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataLineChartID46707651e79 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+null,
+null
+] 
+];
+data.addColumn('string','data_actual');
+data.addColumn('number','percentual');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartLineChartID46702bcd4d7e() {
+var data = gvisDataLineChartID46702bcd4d7e();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "COVID-19 - % Confirmed  -  Taiwan";
+options["titleTextStyle"] = {color:'red',fontName:'Courier',fontSize:16};
+options["curveType"] = "function";
+options["width"] = 460;
+options["height"] = 600;
+
+
+    chartLineChartID46702bcd4d7e = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'LineChart',
+    containerId: 'LineChartID46702bcd4d7e',
+    options: options
+    });
+    chartLineChartID46702bcd4d7e.draw();
+    
+
+}
+
+  function openEditorLineChartID46702bcd4d7e() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartLineChartID46702bcd4d7e = editor.getChartWrapper();  
+  chartLineChartID46702bcd4d7e.draw(document.getElementById('LineChartID46702bcd4d7e')); 
+  }); 
+  editor.openDialog(chartLineChartID46702bcd4d7e);
+  }
+    
+
+
+// jsDrawChart
+function drawChartLineChartID46705bce2aa1() {
+var data = gvisDataLineChartID46705bce2aa1();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "COVID-19 - % Deaths  -  Taiwan";
+options["titleTextStyle"] = {color:'red',fontName:'Courier',fontSize:16};
+options["curveType"] = "function";
+options["width"] = 460;
+options["height"] = 600;
+
+
+    chartLineChartID46705bce2aa1 = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'LineChart',
+    containerId: 'LineChartID46705bce2aa1',
+    options: options
+    });
+    chartLineChartID46705bce2aa1.draw();
+    
+
+}
+
+  function openEditorLineChartID46705bce2aa1() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartLineChartID46705bce2aa1 = editor.getChartWrapper();  
+  chartLineChartID46705bce2aa1.draw(document.getElementById('LineChartID46705bce2aa1')); 
+  }); 
+  editor.openDialog(chartLineChartID46705bce2aa1);
+  }
+    
+
+
+// jsDrawChart
+function drawChartLineChartID46707651e79() {
+var data = gvisDataLineChartID46707651e79();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "COVID-19 - % Recovered  -  Taiwan";
+options["titleTextStyle"] = {color:'red',fontName:'Courier',fontSize:16};
+options["curveType"] = "function";
+options["width"] = 460;
+options["height"] = 600;
+
+
+    chartLineChartID46707651e79 = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'LineChart',
+    containerId: 'LineChartID46707651e79',
+    options: options
+    });
+    chartLineChartID46707651e79.draw();
+    
+
+}
+
+  function openEditorLineChartID46707651e79() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartLineChartID46707651e79 = editor.getChartWrapper();  
+  chartLineChartID46707651e79.draw(document.getElementById('LineChartID46707651e79')); 
+  }); 
+  editor.openDialog(chartLineChartID46707651e79);
+  }
+    
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartID46702bcd4d7e);
+})();
+function displayChartLineChartID46702bcd4d7e() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartID46705bce2aa1);
+})();
+function displayChartLineChartID46705bce2aa1() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartID46707651e79);
+})();
+function displayChartLineChartID46707651e79() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID46702bcd4d7e"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID46705bce2aa1"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID46707651e79"></script>
+ 
+<table cellspacing="20" bgcolor="#AABBCC">
+<tr>
+<td>
+
+<table cellspacing="20" bgcolor="#AABBCC">
+<tr>
+<td>
+
+<!-- divChart -->
+<input type='button' onclick='openEditorLineChartID46702bcd4d7e()' value='Graph'/>  
+<div id="LineChartID46702bcd4d7e" 
+  style="width: 460; height: 600;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+<input type='button' onclick='openEditorLineChartID46705bce2aa1()' value='Graph'/>  
+<div id="LineChartID46705bce2aa1" 
+  style="width: 460; height: 600;">
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+<td>
+
+<!-- divChart -->
+<input type='button' onclick='openEditorLineChartID46707651e79()' value='Graph'/>  
+<div id="LineChartID46707651e79" 
+  style="width: 460; height: 600;">
+</div>
+
+</td>
+</tr>
+</table>
