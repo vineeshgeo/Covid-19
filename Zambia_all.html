@@ -1,0 +1,650 @@
+<!-- LineChart generated in R 3.6.2 by googleVis 0.6.4 package -->
+<!-- Sun Apr 26 09:42:26 2020 -->
+
+
+<!-- jsHeader -->
+<script type="text/javascript">
+ 
+// jsData 
+function gvisDataLineChartIDa847ec73d00 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"2020-03-21",
+0
+],
+[
+"2020-03-20",
+0
+],
+[
+"2020-03-19",
+0
+],
+[
+"2020-03-24",
+0
+],
+[
+"2020-03-23",
+0
+],
+[
+"2020-03-22",
+33.33333333
+],
+[
+"2020-03-25",
+75
+],
+[
+"2020-03-26",
+25
+],
+[
+"2020-03-27",
+27.27272727
+],
+[
+"2020-03-28",
+21.42857143
+],
+[
+"2020-03-29",
+3.448275862
+],
+[
+"2020-03-31",
+0
+],
+[
+"2020-03-30",
+17.14285714
+],
+[
+"2020-04-01",
+2.777777778
+],
+[
+"2020-04-09",
+0
+],
+[
+"2020-04-08",
+0
+],
+[
+"2020-04-07",
+0
+],
+[
+"2020-04-06",
+0
+],
+[
+"2020-04-05",
+0
+],
+[
+"2020-04-04",
+0
+],
+[
+"2020-04-03",
+0
+],
+[
+"2020-04-02",
+7.692307692
+],
+[
+"2020-04-11",
+0
+],
+[
+"2020-04-10",
+2.5
+],
+[
+"2020-04-12",
+6.976744186
+],
+[
+"2020-04-14",
+0
+],
+[
+"2020-04-13",
+4.444444444
+],
+[
+"2020-04-16",
+0
+],
+[
+"2020-04-15",
+6.25
+],
+[
+"2020-04-17",
+7.692307692
+],
+[
+"2020-04-18",
+8.771929825
+],
+[
+"2020-04-19",
+6.557377049
+],
+[
+"2020-04-20",
+6.153846154
+],
+[
+"2020-04-21",
+7.142857143
+],
+[
+"2020-04-22",
+5.405405405
+],
+[
+"2020-04-23",
+2.631578947
+],
+[
+"2020-04-25",
+0
+],
+[
+"2020-04-24",
+9.523809524
+] 
+];
+data.addColumn('string','data_actual');
+data.addColumn('number','percentual');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataLineChartIDa841a157d9 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"2020-04-09",
+0
+],
+[
+"2020-04-08",
+0
+],
+[
+"2020-04-07",
+0
+],
+[
+"2020-04-06",
+0
+],
+[
+"2020-04-05",
+0
+],
+[
+"2020-04-04",
+0
+],
+[
+"2020-04-03",
+0
+],
+[
+"2020-04-18",
+0
+],
+[
+"2020-04-17",
+0
+],
+[
+"2020-04-16",
+0
+],
+[
+"2020-04-15",
+0
+],
+[
+"2020-04-14",
+0
+],
+[
+"2020-04-13",
+0
+],
+[
+"2020-04-12",
+0
+],
+[
+"2020-04-11",
+0
+],
+[
+"2020-04-10",
+50
+],
+[
+"2020-04-25",
+0
+],
+[
+"2020-04-24",
+0
+],
+[
+"2020-04-23",
+0
+],
+[
+"2020-04-22",
+0
+],
+[
+"2020-04-21",
+0
+],
+[
+"2020-04-20",
+0
+],
+[
+"2020-04-19",
+33.33333333
+] 
+];
+data.addColumn('string','data_actual');
+data.addColumn('number','percentual');
+data.addRows(datajson);
+return(data);
+}
+
+
+// jsData 
+function gvisDataLineChartIDa845ba974c0 () {
+var data = new google.visualization.DataTable();
+var datajson =
+[
+ [
+"2020-04-04",
+0
+],
+[
+"2020-04-05",
+33.33333333
+],
+[
+"2020-04-06",
+40
+],
+[
+"2020-04-08",
+0
+],
+[
+"2020-04-07",
+28.57142857
+],
+[
+"2020-04-09",
+70.83333333
+],
+[
+"2020-04-10",
+4
+],
+[
+"2020-04-11",
+10.71428571
+],
+[
+"2020-04-17",
+0
+],
+[
+"2020-04-16",
+0
+],
+[
+"2020-04-15",
+0
+],
+[
+"2020-04-14",
+0
+],
+[
+"2020-04-13",
+0
+],
+[
+"2020-04-12",
+6.666666667
+],
+[
+"2020-04-19",
+0
+],
+[
+"2020-04-18",
+9.090909091
+],
+[
+"2020-04-22",
+0
+],
+[
+"2020-04-21",
+0
+],
+[
+"2020-04-20",
+5.714285714
+],
+[
+"2020-04-25",
+0
+],
+[
+"2020-04-24",
+0
+],
+[
+"2020-04-23",
+5.405405405
+] 
+];
+data.addColumn('string','data_actual');
+data.addColumn('number','percentual');
+data.addRows(datajson);
+return(data);
+}
+ 
+// jsDrawChart
+function drawChartLineChartIDa847ec73d00() {
+var data = gvisDataLineChartIDa847ec73d00();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "COVID-19 - % Confirmed  -  Zambia";
+options["titleTextStyle"] = {color:'red',fontName:'Courier',fontSize:16};
+options["curveType"] = "function";
+options["width"] = 460;
+options["height"] = 600;
+
+
+    chartLineChartIDa847ec73d00 = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'LineChart',
+    containerId: 'LineChartIDa847ec73d00',
+    options: options
+    });
+    chartLineChartIDa847ec73d00.draw();
+    
+
+}
+
+  function openEditorLineChartIDa847ec73d00() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartLineChartIDa847ec73d00 = editor.getChartWrapper();  
+  chartLineChartIDa847ec73d00.draw(document.getElementById('LineChartIDa847ec73d00')); 
+  }); 
+  editor.openDialog(chartLineChartIDa847ec73d00);
+  }
+    
+
+
+// jsDrawChart
+function drawChartLineChartIDa841a157d9() {
+var data = gvisDataLineChartIDa841a157d9();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "COVID-19 - % Deaths  -  Zambia";
+options["titleTextStyle"] = {color:'red',fontName:'Courier',fontSize:16};
+options["curveType"] = "function";
+options["width"] = 460;
+options["height"] = 600;
+
+
+    chartLineChartIDa841a157d9 = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'LineChart',
+    containerId: 'LineChartIDa841a157d9',
+    options: options
+    });
+    chartLineChartIDa841a157d9.draw();
+    
+
+}
+
+  function openEditorLineChartIDa841a157d9() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartLineChartIDa841a157d9 = editor.getChartWrapper();  
+  chartLineChartIDa841a157d9.draw(document.getElementById('LineChartIDa841a157d9')); 
+  }); 
+  editor.openDialog(chartLineChartIDa841a157d9);
+  }
+    
+
+
+// jsDrawChart
+function drawChartLineChartIDa845ba974c0() {
+var data = gvisDataLineChartIDa845ba974c0();
+var options = {};
+options["allowHtml"] = true;
+options["title"] = "COVID-19 - % Recovered  -  Zambia";
+options["titleTextStyle"] = {color:'red',fontName:'Courier',fontSize:16};
+options["curveType"] = "function";
+options["width"] = 460;
+options["height"] = 600;
+
+
+    chartLineChartIDa845ba974c0 = new google.visualization.ChartWrapper({
+    dataTable: data,       
+    chartType: 'LineChart',
+    containerId: 'LineChartIDa845ba974c0',
+    options: options
+    });
+    chartLineChartIDa845ba974c0.draw();
+    
+
+}
+
+  function openEditorLineChartIDa845ba974c0() {
+  var editor = new google.visualization.ChartEditor();
+  google.visualization.events.addListener(editor, 'ok',
+  function() { 
+  chartLineChartIDa845ba974c0 = editor.getChartWrapper();  
+  chartLineChartIDa845ba974c0.draw(document.getElementById('LineChartIDa845ba974c0')); 
+  }); 
+  editor.openDialog(chartLineChartIDa845ba974c0);
+  }
+    
+ 
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartIDa847ec73d00);
+})();
+function displayChartLineChartIDa847ec73d00() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartIDa841a157d9);
+})();
+function displayChartLineChartIDa841a157d9() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+
+
+// jsDisplayChart
+(function() {
+var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+var chartid = "charteditor";
+  
+// Manually see if chartid is in pkgs (not all browsers support Array.indexOf)
+var i, newPackage = true;
+for (i = 0; newPackage && i < pkgs.length; i++) {
+if (pkgs[i] === chartid)
+newPackage = false;
+}
+if (newPackage)
+  pkgs.push(chartid);
+  
+// Add the drawChart function to the global list of callbacks
+callbacks.push(drawChartLineChartIDa845ba974c0);
+})();
+function displayChartLineChartIDa845ba974c0() {
+  var pkgs = window.__gvisPackages = window.__gvisPackages || [];
+  var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
+  window.clearTimeout(window.__gvisLoad);
+  // The timeout is set to 100 because otherwise the container div we are
+  // targeting might not be part of the document yet
+  window.__gvisLoad = setTimeout(function() {
+  var pkgCount = pkgs.length;
+  google.load("visualization", "1", { packages:pkgs, callback: function() {
+  if (pkgCount != pkgs.length) {
+  // Race condition where another setTimeout call snuck in after us; if
+  // that call added a package, we must not shift its callback
+  return;
+}
+while (callbacks.length > 0)
+callbacks.shift()();
+} });
+}, 100);
+}
+ 
+// jsFooter
+</script>
+ 
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartIDa847ec73d00"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartIDa841a157d9"></script>
+
+
+<!-- jsChart -->  
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartIDa845ba974c0"></script>
+ 
+<table cellspacing="20" bgcolor="#AABBCC">
+<tr>
+<td>
+
+<table cellspacing="20" bgcolor="#AABBCC">
+<tr>
+<td>
+
+<!-- divChart -->
+<input type='button' onclick='openEditorLineChartIDa847ec73d00()' value='Graph'/>  
+<div id="LineChartIDa847ec73d00" 
+  style="width: 460; height: 600;">
+</div>
+
+</td>
+<td>
+
+<!-- divChart -->
+<input type='button' onclick='openEditorLineChartIDa841a157d9()' value='Graph'/>  
+<div id="LineChartIDa841a157d9" 
+  style="width: 460; height: 600;">
+</div>
+
+</td>
+</tr>
+</table>
+
+</td>
+<td>
+
+<!-- divChart -->
+<input type='button' onclick='openEditorLineChartIDa845ba974c0()' value='Graph'/>  
+<div id="LineChartIDa845ba974c0" 
+  style="width: 460; height: 600;">
+</div>
+
+</td>
+</tr>
+</table>
